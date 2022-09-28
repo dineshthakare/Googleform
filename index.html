@@ -6,21 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
 </head>
+<style>
+    body{
+        background-color: deeppink;
+    }
+    h1{
+          color: cornflowerblue;
+    }
+    h3{
+      color: greenyellow;
+    }
+    input[type=submit]{
+        background-color: crimson;
+        color: aqua;
+    }
+    input{
+        color: blue;
+    }
+</style>
 <body>
     <h1 align="center"> Employee Form</h1>
     <form>
         <h3 align="center">
 Enter your name:<input type="text" name="Enter your name"><br>
 Enter your department:<input type="text" name="Enter your department"><br>
-Tell us litle about yourself:<input type="text" name="hello"><br>
+Tell us litle about yourself:<input type="text" height="150" width="75" name="hello"><br>
 <label >
     do you exercise at home?
 </label>
 <input type="radio" id="do you exercise at home?" name="do you exercise at home?" value="male"/>
 Yes 
 <input type="radio" id="do you exercise at home?" name="do you exercise at home?" value="male"/>
-No <br>
-How do you like to read about your favorite topics?<br>
+No <br><br>
+How do you like to read about your favorite topics?<br><br>
 <label >
 <input type="checkbox" id="How do you like to read about your favorite topics?" value="Books">
 Books
@@ -30,7 +48,7 @@ Online Resources
 Phone apps
 <input type="checkbox" id="How do you like to read about your favorite topics?" value="Books">
 Magazines
-<br>
+<br><br>
 
 
 <label >What genre of movies do you like?</label>
@@ -40,7 +58,7 @@ Magazines
 <option >Drama</option>
 </select><br><br>
 
-<input type="submit" value="submit form"><br>
+<input  type="submit"  value="submit form" ><br>
 
 
 </h3>
